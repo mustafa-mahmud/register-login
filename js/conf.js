@@ -12,7 +12,7 @@ const countDown = () => {
     if (times === -1) {
       clearInterval(stop);
       times = 20;
-      // setLocation('logout.php', 0);
+      setLocation('logout.php', 0);
     }
   }, 1000);
 };

@@ -29,7 +29,7 @@ function imageValidation($img) {
     }
 
   } else {
-    return 'It is not image, Pls choose a valid image.';
+    return false;
   }
 }
 

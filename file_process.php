@@ -32,6 +32,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               echo 'confirmation';
             }
           }
+        } else {
+          echo 'It is not image or upto 3mbs,Please choose another image.';
         }
       } else {
         echo 'Image is required';
