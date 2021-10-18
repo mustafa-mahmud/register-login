@@ -80,8 +80,8 @@ function emailSend($email, $code) {
   $mail->isSMTP(); //if you send by the live server, delete this line,it is only for localhost
   $mail->Host = 'smtp.gmail.com';
   $mail->SMTPAuth = true;
-  $mail->Username = 'mithuweb000@gmail.com';
-  $mail->Password = '01199395215@bd#Mt$';
+  $mail->Username = 'YOUR GMAIL HERE';
+  $mail->Password = 'YOUR GMAIL PASSWORD HERE';
   $mail->Port = 465;
   $mail->SMTPSecure = 'ssl';
 
