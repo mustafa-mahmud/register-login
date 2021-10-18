@@ -87,8 +87,8 @@ function emailSend($email, $code) {
 
   //email settings
   $mail->isHTML(true);
-  $mail->setFrom('mithuweb000@gmail.com', 'Register Verify');
-  $mail->addAddress($email);
+  $mail->setFrom('YOUR GMAIL HERE', 'Register Verify');
+  $mail->addAddress($email);//Where to go email
   $mail->Subject = ("CONFIRMAION");
   $mail->Body = "Your 4 digit code is " . $code;
 
